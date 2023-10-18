@@ -4,11 +4,11 @@ public class App {
 
         Terreno terreno = new Terreno(10);
 
-        Herbivoro coelho = new Herbivoro("Coelho", false, 1, "🐇");
+        Herbivoro coelho = new Herbivoro("Coelho", false, 1, "🐰");
 
         Carnivoro lobo = new Carnivoro("Lobo", true, 5, "🐺");
 
-        Planta planta = new Planta("Arbusto", 1, "🌱");
+        Planta planta = new Planta("Arbusto", 1, "🪴");
 
         terreno.adicionarAnimal(coelho);
         terreno.adicionarAnimal(lobo);
